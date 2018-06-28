@@ -1,0 +1,61 @@
+.Menu {
+    position: absolute;
+    font-style: Sans-serif;
+    height: 640px;
+    width: 350px;
+    background-color: rgb(44, 44, 44);
+}
+
+.Menu__Top {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 18pt;
+    color: rgb(255, 255, 241);
+    text-align: center;
+}
+
+.Menu__Buttons {
+    margin-top: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Menu__Buttons div {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.Menu__CopyrightInfo {
+    margin-top: 440px;
+    color: rgb(66, 67, 69);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Menu__CopyrightInfo div {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.Menu__SnsButtons {
+    margin-top: 580px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+a:hover {
+    color: rgb(228, 169, 55)
+}
+
+a:link {
+    color: rgb(139, 136, 133)
+}
+
