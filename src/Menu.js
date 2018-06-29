@@ -21,13 +21,13 @@ function MenuTitle () {
 function MenuButtons () {
     return (
         <div className='Menu__Buttons'>
-            <div className='buttonText'><a href="">HOME</a></div>
-            <div><a href="">PROJECT</a></div>
-            <div><a href="">ABOUT</a></div>
-            <div><a href="">SERVICES</a></div>
-            <div><a href="">BLOG</a></div>
-            <div><a href="">CONTACT</a></div>
-        </div> 
+            <div className='Menu__Button__Home'><a href="">HOME</a></div>
+            <div className='Menu__Button__PROJECT'><a href="">PROJECT</a></div>
+            <div className='Menu__Button__ABOUT'><a href="">ABOUT</a></div>
+            <div className='Menu__Button__SERVICES'><a href="">SERVICES</a></div>
+            <div className='Menu__Button__BLOG'><a href="">BLOG</a></div>
+            <div className='Menu__Button__CONTACT'><a href="">CONTACT</a></div>
+        </div>
     )
 }
 
@@ -45,7 +45,7 @@ function CopyrightInfo () {
 function SnsButtons () {
     return (
         <div className='Menu__SnsButtons'>
-            <img src="./resources/facebook-logo.png" alt="facebook"/>
+            <img src="./resources/facebook-logo.png" alt=""/>
             <img src="" alt=""/>
             <img src="" alt=""/>
             <img src="" alt=""/>

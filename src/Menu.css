@@ -30,6 +30,7 @@
 }
 
 .Menu__CopyrightInfo {
+    width: 350px;
     margin-top: 440px;
     color: rgb(66, 67, 69);
     position: absolute;
@@ -49,13 +50,28 @@
     transform: translateX(-50%);
 }
 
-
-
-a:hover {
-    color: rgb(228, 169, 55)
+.Menu__Buttons {
+    border-bottom: 3px;
 }
 
-a:link {
+.Menu__Buttons a, u {
+    text-decoration: none;
+}
+
+.Menu__Buttons a {
+   color: rgb(139, 136, 133) 
+}
+
+.Menu__Button__Home a:visited {
+   color: rgb(228, 169, 55) 
+}
+
+.Menu__Buttons a:hover, u {
+    color: rgb(228, 169, 55);
+    text-decoration: underline;
+}
+
+.Menu__Buttons a:link {
     color: rgb(139, 136, 133)
 }
 
