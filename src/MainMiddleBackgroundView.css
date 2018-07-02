@@ -1,0 +1,48 @@
+.MainMiddleBackgroundView {
+    width: 50%;
+    margin: auto;
+
+    margin-top: 180px;
+}
+
+.MainMiddleContent {
+    display: flex;
+    justify-content: center;
+}
+
+.MainMiddleBackgroundView img {
+    width: 70%;
+    height: 70%;
+}
+
+.MainMiddleText {
+    float: right;
+    width: 30%;
+}
+
+.MainMiddleText__TopText {
+    margin-top: 5px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    color: rgb(120, 120, 129);
+    font-size: 10pt;
+    margin-right: 10px;
+}
+
+.MainMiddleText__Middle {
+    display: flex; 
+    margin-top: 20px;
+    margin-left: 20px; 
+    letter-spacing: 6px;
+    font-size: 15pt;
+    color: #333333;
+}
+
+.MainMiddleText__Middle__Middle1Text {
+    border-bottom: 4px solid currentColor;
+    border-color: #DFC259;
+}
+
+.MainMiddleText__Middle__Middle2Text {
+    margin-left: 11px;
+}
