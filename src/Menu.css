@@ -1,9 +1,12 @@
 .Menu {
-    position: absolute;
     font-style: Sans-serif;
-    height: 640px;
+    height: 100%;
     width: 350px;
     background-color: rgb(44, 44, 44);
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    left: 0;
 }
 
 .Menu__Top {

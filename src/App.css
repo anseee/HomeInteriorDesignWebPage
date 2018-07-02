@@ -2,3 +2,6 @@
   position: relative;
 }
 
+.App__Top__Container {
+  display: flex;
+}

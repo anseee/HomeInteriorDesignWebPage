@@ -3,7 +3,7 @@ import './MainTopBackgroundView.css';
 
 function MainTopBackgroundView () {
     return (
-        <div className="">
+        <div className="MainTopBackgroundView">
         <MainImageView />
         <MainDescView />
         </div>

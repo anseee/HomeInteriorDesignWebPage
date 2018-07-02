@@ -13,6 +13,8 @@
 .MainMiddleBackgroundView img {
     width: 70%;
     height: 70%;
+    min-width: 590px;
+    min-height: 370px;
 }
 
 .MainMiddleText {

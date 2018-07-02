@@ -6,6 +6,8 @@
 
 .MainImageView img {
     width: 100%;
+    min-height: 758px;
+    min-width: 1365px;
 }
 
 .MainDescView {
