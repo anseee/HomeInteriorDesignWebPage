@@ -1,5 +1,9 @@
 import React from 'react';
 import './Menu.css';
+import facebookLogo from './images/facebookLogo.png';
+import twitterLogo from './images/twitter.png';
+import instagramLogo from './images/instagram.png';
+import linkedinLogo from './images/linkedin-logo.png';
 
 function Menu () {
     return (
@@ -45,10 +49,10 @@ function CopyrightInfo () {
 function SnsButtons () {
     return (
         <div className='Menu__SnsButtons'>
-            <img src="./resources/facebook-logo.png" alt=""/>
-            <img src="" alt=""/>
-            <img src="" alt=""/>
-            <img src="" alt=""/>
+            <img src={facebookLogo} alt="" className="Menu__SnsButtons__facebookLogo"/>
+            <img src={twitterLogo} alt="" className="Menu__SnsButtons__twitterLogo"/>
+            <img src={instagramLogo} alt="" className="Menu__SnsButtons__instagramLogo"/>
+            <img src={linkedinLogo} alt="" className="Menu__SnsButtons__linkedinLogo"/>
         </div> 
     )
 }

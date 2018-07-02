@@ -75,3 +75,19 @@
     color: rgb(139, 136, 133)
 }
 
+.Menu__SnsButtons img {
+    width: 16px;
+    height : 16px;
+}
+
+.Menu__SnsButtons__facebookLogo {
+    margin-right: 15px;
+}
+
+.Menu__SnsButtons__twitterLogo {
+    margin-right: 15px;
+}
+
+.Menu__SnsButtons__instagramLogo {
+    margin-right: 15px;
+}
